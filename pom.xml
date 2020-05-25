@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ObserverObservable</groupId>
+  <artifactId>ObserverObservable</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <description>Super POM for ObserverObservable</description>
+  <packaging>pom</packaging>
+  <build>
+    <resources>
+      <resource>
+        <directory>src/</directory>
+        <includes>
+          <include>**</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
+  <modules>
+    <module>Ejemplo1</module>
+    <module>Ejemplo2</module>
+    <module>Ejemplo3</module>
+  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>ObserverObservable</groupId>
+      <artifactId>Ejemplo1</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>jar</type>
+    </dependency>
+    <dependency>
+      <groupId>ObserverObservable</groupId>
+      <artifactId>Ejemplo2</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>jar</type>
+    </dependency>
+    <dependency>
+      <groupId>ObserverObservable</groupId>
+      <artifactId>Ejemplo3</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>jar</type>
+    </dependency>
+  </dependencies>
+</project>
